@@ -1,0 +1,8 @@
+aws/terraform/s3/.terraform
+aws/terraform/s3/.terraform/out
+aws/terraform/s3/.terraform/.terraform.lock.hcl
+aws/terraform/s3/.terraform/.terraform.tfstate
+aws/terraform/s3/.terraform/.terraform.tfstate.backup
+aws/terraform/ec2/.terraform
+aws/terraform/lb/.terraform
+creadentials.txt
