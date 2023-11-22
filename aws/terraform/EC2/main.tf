@@ -67,7 +67,7 @@ resource "aws_subnet" "full-release-vpc-subnet" {
 
 resource "aws_key_pair" "full-release-key-pair" {
   key_name   = "fl-key-pair"
-  public_key = "public_rsa_key_here"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9iBoCvuy/1TrKJOXMji5fnR8cB3ZytGSCUPbLJNde9HW7K1hxLS6d62G+R7RKNHc7K4RC3t3jmFORXP+vwBTTn4A50y9hJlW1Ej+FvgKbVlpinl2xTWV1tIoWdTGmCZcrbuiKCWESTZOWqRGAwIgDyuTgdS6sZ9TxXILLo1IraDHAIXX8ovkcSGfMt0I+u6uDN89Tt6lB1L7steWvGwdj1QaDXL2czO7iONahGSIWb8VqZqWonwOf1olky1Cv2KdlznybbTDIAnKysOiXP8pjL6TE3l/CzOh4L+joYpcLxJLZfnyaleoFC6z2mCNuj+yq6DtSSaHcsToHUZpDh7nz tomrlh@Thiagos-MacBook-Pro.local"
 }
 
 resource "aws_instance" "full-release-aws-instance" {
@@ -93,6 +93,8 @@ resource "aws_instance" "full-release-aws-instance" {
     Name = "HelloWorld"
   }
 }
+
+
 
 // TROUBLESHOOTING:
 
