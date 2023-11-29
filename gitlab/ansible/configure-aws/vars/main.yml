@@ -1,0 +1,8 @@
+aws:
+  region: us-east-2
+  accountid: 049389827536
+  servicename: coffeeandit-aula
+  home: /Users/tomrlh/.aws
+#eks:
+#  cluster: coffeeandit-cluster-aula
+

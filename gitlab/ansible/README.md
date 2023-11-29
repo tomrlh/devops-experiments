@@ -18,7 +18,7 @@ ansible-playbook -i inventory.cfg kubectl_install.yml -b --private-key /Users/to
 
 ### Install Cliente AWS
 
-ansible-playbook -i inventory.cfg aws-cli_install.yml -b --private-key /Users/tomrlh/Documents/Programming_Projects/DevOps/gitlab-fullrelease/aws/terraform/EC2/id_rsa -u ubuntu
+ansible-playbook -i inventory.cfg aws_cli_install.yml -b --private-key /Users/tomrlh/Documents/Programming_Projects/DevOps/gitlab-fullrelease/aws/terraform/EC2/id_rsa -u ubuntu
 
 ### Configure AWS
 
