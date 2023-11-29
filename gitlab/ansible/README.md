@@ -22,7 +22,7 @@ ansible-playbook -i inventory.cfg aws_cli_install.yml -b --private-key /Users/to
 
 ### Configure AWS
 
-ansible-playbook -i inventory.cfg aws-configure.yml -b --private-key /Users/tomrlh/Documents/Programming_Projects/DevOps/gitlab-fullrelease/aws/terraform/EC2/id_rsa -u ubuntu
+ansible-playbook -i inventory.cfg aws_configure.yml -b --private-key /Users/tomrlh/Documents/Programming_Projects/DevOps/gitlab-fullrelease/aws/terraform/EC2/id_rsa -u ubuntu
 
 ### Kube Config
 
